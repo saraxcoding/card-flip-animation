@@ -21,6 +21,7 @@ body {
     margin: 100px auto 0;
     width: 400px;
     height: 600px;
+    perspective: 1000px;
 }
 
 .card__inner {
@@ -56,7 +57,10 @@ body {
 
 .card__face--front h2 {
     color: #FFF;
+    font-family: "Oswald", sans-serif;
     font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .card__face--back {
