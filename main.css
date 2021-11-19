@@ -11,8 +11,8 @@
 }
 
 body {
-    background-color: black;
-    font-family: montserrat, sans-serif;
+    background-color: #FFF;
+    font-family: "Lato", sans-serif;
     width: 100%;
     min-height: 100vh;
 }
@@ -85,4 +85,42 @@ body {
     z-index: -1;
     border-radius: 0 0 50% 0;
     background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
+}
+
+.avatar {
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    background-color: #FFF;
+    border: 5px solid #FFF;
+    object-fit: cover;
+}
+
+.card__header {
+    color: #FFF;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card__body {
+    padding: 30px;
+}
+
+.card__body h3 {
+    color: var(--dark);
+    font-family: "Oswald", sans-serif;
+    font-size: 24;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card__body p {
+    color: var(--dark);
+    font-size: 18px;
+    line-height: 1.5;
 }
